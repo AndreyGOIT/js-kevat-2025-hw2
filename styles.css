@@ -1,18 +1,54 @@
+#calculator {
+    width: 240px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #918f8f;
+  }
 #display-container {
  background-color: #f0f0f0;
-    width: 230px; /* Ширина контейнера */
+    width: 230px; 
     border: 1px solid #ccc;
     margin-bottom: 5px;
   }
-  
+  /*----------- Стили для v.2 ---------------*/
+#display-container-2 {
+    display: flex;
+  justify-content: flex-end; /* Выравнивание содержимого справа */
+  align-items: center; /* Центрирование по вертикали */
+  background-color: #edeaea; /* Цвет фона области отображения */
+  border: 2px solid #ccc; /* Рамка */
+  border-radius: 5px; /* Скругленные углы */
+  padding: 10px;
+  margin-bottom: 15px; /* Расстояние до блока с кнопками */
+  width: 218px; /* Занимает всю ширину */
+  height: 50px; /* Высота области */
+  font-size: 34px; /* Размер шрифта */
+  font-weight: bold;
+  color: #333; /* Цвет текста */
+  overflow-x: auto; /* Прокрутка, если текст слишком длинный */
+  }
+  #display {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #333;
+    overflow-x: auto;
+  }
+  /*----------- конец стилей для v.2 ---------*/
+
   #formula-display {
-    font-size: 18px;
-    color: #555;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: 22px;
+    color: #868585;
     border-bottom: 1px solid #ccc;;
   }
   
   #result-display {
-    font-size: 32px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 38px;
     font-weight: bold;
     color: #000;
   }
@@ -25,14 +61,14 @@
     height: 50px;
     font-size: 30px;
     margin: 2px;
-    background-color: #f0f0f0;
+    background-color: #d0cdcd;
 }
 #numbers-block button {
     width: 50px;
     height: 50px;
     font-size: 20px;
     margin: 2px;
-    background-color: #f0f0f0;
+    background-color: #e2e0e0;
 }
 #buttons {
     display: flex;
@@ -49,7 +85,7 @@
     font-weight: bold;
 }
 .mtpl {
-    line-height: 50px; /* Равное высоте кнопки */
+    line-height: 50px; 
     text-align: center;
     padding-top: 5px;
 }
