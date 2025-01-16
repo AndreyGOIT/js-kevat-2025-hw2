@@ -4,44 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home work 2: Laskin</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <center>
         <div id="calculator">
-            <div class="result-panel">
-                <div class="panel-item">
+            <div id="display-container">
                     <h4 id="formula-display">0</h4>
-                </div>
-                <div class="panel-item">
+                    <!-- <hr> -->
                     <h3 id="result-display">0</h3>
-                </div>
             </div>
             <div id="buttons">
-              <!-- numerot -->
-              <button class="btn" data-value="1">1</button>
-              <button class="btn" data-value="2">2</button>
-              <button class="btn" data-value="3">3</button>
-              <br>
-              <button class="btn" data-value="4">4</button>
-              <button class="btn" data-value="5">5</button>
-              <button class="btn" data-value="6">6</button>
-              <br>
-              <button class="btn" data-value="7">7</button>
-              <button class="btn" data-value="8">8</button>
-              <button class="btn" data-value="9">9</button>
-              <br>
-              <!-- muut -->
-              <button class="btn" data-value="C">C</button>
-              <button class="btn" data-value="0">0</button>
-              <button class="btn" data-value="=">=</button>
-              <br>
+                <div id="numbers-block">
+                    <!-- numerot -->
+                    <button class="btn" data-value="1">1</button>
+                    <button class="btn" data-value="2">2</button>
+                    <button class="btn" data-value="3">3</button>
+                    <br>
+                    <button class="btn" data-value="4">4</button>
+                    <button class="btn" data-value="5">5</button>
+                    <button class="btn" data-value="6">6</button>
+                    <br>
+                    <button class="btn" data-value="7">7</button>
+                    <button class="btn" data-value="8">8</button>
+                    <button class="btn" data-value="9">9</button>
+                    <br>
+                    <!-- muut -->
+                    <button class="btn cancel" data-value="C">C</button>
+                    <button class="btn" data-value="0">0</button>
+                    <button id="equal" class="btn " data-value="=">=</button>
+
+                </div>
+              <!-- <br> -->
               <!-- matemaattiset symbolit -->
-              <button class="btn" data-value="+">+</button>
-              <button class="btn" data-value="-">-</button>
-              <button class="btn" data-value="*">*</button>
-              <button class="btn" data-value="/">/</button>
-              <br>
+               <div id="operators">
+                   <button class="btn" data-value="+">+</button>
+                   <button class="btn" data-value="-">-</button>
+                   <button class="btn mtpl" data-value="*">*</button>
+                   <button class="btn" data-value="/">/</button>
+               </div>
+              <!-- <br> -->
             </div>
           </div>
     </center>
