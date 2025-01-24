@@ -10,22 +10,22 @@
     border: 1px solid #ccc;
     margin-bottom: 5px;
   }
-  /*----------- Стили для v.2 ---------------*/
+  /*----------- tyylit v.2 ---------------*/
 #display-container-2 {
     display: flex;
-  justify-content: flex-end; /* Выравнивание содержимого справа */
-  align-items: center; /* Центрирование по вертикали */
-  background-color: #edeaea; /* Цвет фона области отображения */
-  border: 2px solid #ccc; /* Рамка */
-  border-radius: 5px; /* Скругленные углы */
+  justify-content: flex-end; /* Tasaa sisältö oikealle*/
+  align-items: center; /* Keskitys pystysuoraan */
+  background-color: #edeaea; /* Näyttöalueen taustaväri */
+  border: 2px solid #ccc; /* Kehys */
+  border-radius: 5px; /* Pyöristetyt kulmat */
   padding: 10px;
-  margin-bottom: 15px; /* Расстояние до блока с кнопками */
-  width: 218px; /* Занимает всю ширину */
-  height: 50px; /* Высота области */
-  font-size: 34px; /* Размер шрифта */
+  margin-bottom: 15px; /* Etäisyys painikelohkoon */
+  width: 218px; /* Vie koko leveyden */
+  height: 50px; /* Alueen korkeus */
+  font-size: 34px; /* Fontin koko */
   font-weight: bold;
-  color: #333; /* Цвет текста */
-  overflow-x: auto; /* Прокрутка, если текст слишком длинный */
+  color: #333; /* Tekstin väri */
+  overflow-x: auto; /* Vieritys, jos teksti on liian pitkä */
   }
   #display {
     margin-top: 10px;
@@ -35,7 +35,7 @@
     color: #333;
     overflow-x: auto;
   }
-  /*----------- конец стилей для v.2 ---------*/
+  /*----------- tyylit v.2 loppuu ---------*/
 
   #formula-display {
     margin-top: 8px;
@@ -62,13 +62,16 @@
     font-size: 30px;
     margin: 2px;
     background-color: #d0cdcd;
+    border-radius: 5px;
+    color: rgb(68, 126, 234);
 }
 #numbers-block button {
     width: 50px;
     height: 50px;
-    font-size: 20px;
+    font-size: 30px;
     margin: 2px;
     background-color: #e2e0e0;
+    border-radius: 5px;
 }
 #buttons {
     display: flex;
@@ -85,7 +88,11 @@
     font-weight: bold;
 }
 .mtpl {
-    line-height: 50px; 
-    text-align: center;
-    padding-top: 5px;
+  font-size: 25px !important;
+}
+.bold {
+  font-size: 32px;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  color: #333;
 }
